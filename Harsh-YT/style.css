@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.babe{
+    background: url(./bottle.jpg);
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 970px;
+}
+/* #span{
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    margin:  0 13px;
+    margin-bottom: -12.5px;
+} */
+ .spanone{
+   background: url(./bluegirl.jpg);
+   background-size: cover;
+   background-position: 0% 60%;
+ }
+ .spantwo{
+    background: url(./grass.jpg);
+    background-size: cover;
+    background-position: 0% 48%;
+  }
+  .spanthree{
+    background: url(./shaljam.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+  }

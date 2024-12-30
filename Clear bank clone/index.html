@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clear bank</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="main">
+    <div class="py-6 px-12 blur-[0.2px] opacity-80 flex items-center justify-between bg-gray-100 w-full h-20 fixed ">
+      <svg class="w-full max-w-[200px] mdw:max-w-[200px] py-[25px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 49" fill="none">
+      <path d="M150 48.115c2.442 0 4.223-1.782 4.223-4.224 0-2.441-1.781-4.223-4.223-4.223s-4.224 1.782-4.224 4.224c0 2.441 1.782 4.223 4.224 4.223Zm63.088-5.015c-3.365 0-5.873-2.112-5.873-4.752 0-3.3 2.904-4.883 6.599-5.213l9.437-.792v2.838c0 4.025-4.751 7.919-9.503 7.919h-.66Zm-105.917 0c-3.365 0-5.873-2.112-5.873-4.752 0-3.3 2.903-4.883 6.599-5.213l9.437-.792v2.838c0 4.025-4.752 7.919-9.503 7.919h-.66Zm62.891-1.056V26.866h10.954c5.676 0 9.503 2.441 9.503 7.589 0 5.213-3.827 7.589-9.503 7.589h-10.954ZM65.596 28.25c.858-5.147 4.026-8.777 9.701-8.777 5.741 0 8.513 3.63 9.239 8.777h-18.94Zm76.749-13.396c-7.787 0-13.199 5.147-13.199 12.67V47.72h6.27V27.525c0-4.157 2.771-7.06 6.929-7.06h5.081v-5.61h-5.081Zm81.236 27.255v5.61h5.939V26.733c0-6.666-4.883-12.539-13.99-12.539-7.721 0-13.396 4.29-13.924 10.69h6.269c.594-3.43 3.498-5.279 7.523-5.279h.33c4.686 0 7.523 2.574 7.523 7.128v.791l-10.295.858c-5.675.462-12.01 2.772-12.01 10.23 0 5.41 4.685 9.766 11.482 9.766 5.61 0 9.833-3.3 11.153-6.27Zm26.199-27.915c-8.645 0-14.716 5.675-14.716 14.188V47.72h6.269V28.78c0-5.411 3.432-8.975 8.447-8.975 5.015 0 8.447 3.564 8.447 8.975v18.94h6.269V28.383c0-8.513-6.071-14.188-14.716-14.188ZM90.41 37.16h-5.874c-1.386 3.564-4.554 5.94-9.041 5.94-6.137 0-9.437-4.356-10.097-9.965h25.275v-2.178c0-10.097-5.94-16.762-15.244-16.762-9.899 0-16.366 7.721-16.366 17.092 0 9.37 6.467 17.092 16.366 17.092 8.117 0 13.462-4.817 14.98-11.219Zm27.254 4.95v5.61h5.939V26.733c0-6.666-4.883-12.539-13.99-12.539-7.721 0-13.397 4.29-13.924 10.69h6.269c.594-3.43 3.497-5.279 7.523-5.279h.33c4.685 0 7.523 2.574 7.523 7.128v.791l-10.295.858c-5.675.462-12.01 2.772-12.01 10.23 0 5.41 4.685 9.766 11.482 9.766 5.61 0 9.833-3.3 11.153-6.27Zm52.332-20.656V7.464h10.162c5.346 0 8.645 2.31 8.645 7.061 0 4.62-3.299 6.93-8.645 6.93h-10.162Zm-6.27 26.265h18.28c8.909 0 14.914-4.817 14.914-12.802 0-6.666-5.015-10.56-9.371-11.153 4.026-1.188 7.656-4.29 7.656-9.767 0-6.995-5.478-12.208-14.453-12.208h-17.026v45.93Zm121.756-18.61 14.254-14.254h-7.721l-15.706 16.3V1.79h-6.269v45.93h6.269v-9.437l4.949-4.883 11.021 14.32H300l-14.518-18.61ZM54.047 1.79h-6.269v45.93h6.27V1.79ZM0 24.754c0 13.33 10.559 23.625 23.757 23.625 7.787 0 14.584-3.63 18.808-9.239l-4.752-3.761c-3.365 4.289-8.117 7.193-14.056 7.193-9.767 0-17.356-7.985-17.356-17.818 0-9.833 7.59-17.818 17.356-17.818 5.94 0 10.69 2.904 14.056 7.193l4.752-3.761c-4.224-5.61-11.02-9.24-18.808-9.24C10.56 1.129 0 11.424 0 24.755Z" fill="currentColor"></path>
+      </svg>
+      <div class="tags text-xl font-medium flex items-center justify-between gap-10">
+         <h1>Product<i class="ri-arrow-up-s-line"></i></h1>
+         <h1>Use cases<i class="ri-arrow-up-s-line"></i></h1>
+         <h1>About<i class="ri-arrow-up-s-line"></i></h1>
+         <h1>Learn<i class="ri-arrow-up-s-line"></i></h1> 
+         <button class="px-5 py-2 bg-teal-200 rounded-full hover:bg-zinc-500 hover:text-white ">Begin<i class="ri-arrow-right-line"></i></button>
+      </div>
+    </div> 
+
+<div class=" py-6 px-12 ">
+  <div class="py-6-12 px mt-[20%] text-8xl ">
+    <h1>Innovate.</h1>
+    <h1>Differentiate.</h1>
+    <h1>Grow.</h1>
+  </div>
+  <div class=" mt-[-35px] flex items-center justify-end ">
+    <button class="px-10 py-4 bg-black text-white rounded-full hover:bg-teal-500">Begin<i class="ri-arrow-right-line"></i></button>
+  </div >
+</div>
+
+<div>
+  <video class="rounded-t-[50px]" autoplay muted loop src="./CB_Homepage_H264_3-1_v03.mp4"></video>
+</div>
+
+<div class="mt-10 flex items-center justify-between px-9 ">
+<div class="slider">
+  <div class="slide-track gap-10">
+    <div class="slide">
+      <img src="https://clear.bank/uploads/Logos/Allica-Bank-Logo-V2.svg" alt="Allica Bank Logo V2">
+    </div>
+    <div class="slide">
+      <img src="https://clear.bank/uploads/Logos/Wealthify-Logo.svg" alt="Wealthify Logo">
+    </div>
+    <div class="slide">
+      <img src="https://clear.bank/uploads/Logos/Coinbase-2.svg" alt="Coinbase 2">
+    </div>
+    <div class="slide">
+      <img src="https://clear.bank/uploads/Logos/Chip.svg" alt="Chip">
+    </div>
+    <div class="slide">
+      <img src="https://clear.bank/uploads/Logos/TrueLayer-Logo.svg" alt="True Layer Logo">
+    </div>
+    <div class="slide">
+      <img src="https://clear.bank/uploads/Logos/eToro.svg" alt="E Toro">
+    </div>
+    <!-- Clone slides for infinite scroll effect -->
+    <div class="slide">
+      <img src="https://clear.bank/uploads/Logos/Allica-Bank-Logo-V2.svg" alt="Allica Bank Logo V2">
+    </div>
+    <div class="slide">
+      <img src="https://clear.bank/uploads/Logos/Wealthify-Logo.svg" alt="Wealthify Logo">
+    </div>
+    <div class="slide">
+      <img src="https://clear.bank/uploads/Logos/Coinbase-2.svg" alt="Coinbase 2">
+    </div>
+    <div class="slide">
+      <img src="https://clear.bank/uploads/Logos/Chip.svg" alt="Chip">
+    </div>
+    <div class="slide">
+      <img src="https://clear.bank/uploads/Logos/TrueLayer-Logo.svg" alt="True Layer Logo">
+    </div>
+    <div class="slide">
+      <img src="https://clear.bank/uploads/Logos/eToro.svg" alt="E Toro">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="text-4xl py-6 mt-5 px-12 w-[60%] h-auto">
+<p>Financial institutions — from fintechs and digital asset platforms, to banks and credit unions — <span class="text-gray-500">use our API to offer their customers fully regulated banking infrastructure and real-time clearing access.</span> That way the business can grow on your own terms, and stay ahead — at speed.</p>
+</div>
+
+<div class="py-6 px-12 flex items-center justify-between ">
+  <section class="width-[50%]">
+    <h1 class="mt-10 text-4xl">Our products</h1>
+    <h2 class="mt-10 text-3xl">01 - <span class="text-gray-500">03</span></h2>
+    <h3 class="mt-10 text-6xl text-gray-500 hover:text-black">Accounts</h3>
+    <h3 class="mt-10 text-6xl text-gray-500 hover:text-black">Clearing</h3>
+    <h3 class="mt-10 text-6xl text-gray-500 hover:text-black">Embedded Banking</h3>
+  </section>
+  <div class=" py-6 px-12 h-auto w-[500px] mt-10 bg-gray-100 rounded-[30px] flex-col items-center justify-between">
+    <video class="py-6 px-12 [400px] h-[400px] " autoplay muted loop src="./CB_Product_Accounts.webm"></video> 
+    <h1 class="text-xl mb-10">Choose the fully regulated accounts that work best for your business and your customers.</h1>
+    <button class="px-5 py-2 bg-black text-white rounded-full hover:bg-teal-400">Get start<i class =" ri-arrow-right-line"></i></button>
+  </div>
+</div>
+
+
+<div class="babe py-6 px-12 mt-10">
+  <h1 class="text-3xl mt-10">Driven by technology</h1>
+  <h2 class="text-6xl mt-10 w-[45%] h-auto">Be part of the future of banking with our API</h2>
+  <h1 class="text-3xl mt-10 w-[75%] h-auto">With our cloud-based API, we offer banking infrastructure so financial institutions can focus on providing the best service for their customers and stay relevant in a fast-paced market.</h1>
+  <button class="px-7 mt-10 py-3 text-xl border-2 border-black rounded-full ">Explore our API<i class =" ri-arrow-right-line"></i></button>
+</div>
+
+<div class="w-full section flex items-start justify-between mt-24 px-14">
+  <div class="w-[48%]">
+      <img src="https://clear.bank/uploads/images/In-page-images/_1736x1736_crop_center-center_92_none/56685/Powered-by-people-3@2x.webp"
+          alt="" class="rounded-3xl h-[700px] w-[700px]">
+  </div>
+  <div class="w-[48%] space-y-4">
+      <h2 class="text-3xl">Powered by people</h2>
+      <h1 class="text-7xl font-medium">Your partner in growth</h1>
+      <p class="text-2xl py-5">We understand the pain of dealing with legacy <br>systems, the cost and the risk
+          involved in <br>innovating
+          in the financial services sector. That's <br>why we set up ClearBank. We're built to support
+          <br>you. That
+          means no shared propositions, no <br>customer overlap and no competition. Your <br>growth is our
+          growth.
+      </p>
+   </div>
+</div>
+
+
+<div class="mt-[27%] py-6 px-12 gap-[18%] flex items-center justify-between">
+  <div class="mb-[22%]">
+    <h1 class="text-7xl">Why choose ClearBank</h1>
+    <h2 class="text-3xl w-2/7 mt-4 ">Financial technology with a banking licence, and expert guidance</h2>
+  </div>
+
+<div>
+  <img class="h-20 w-20 mb-20 " src="https://clear.bank/uploads/Icons/5.svg" alt="">
+  <h1 class="text-4xl mt-20">Cloud-based API</h1>
+  <h2 class="text-xl mt-10">Our cloud-based systems make opening and managing accounts easy and let you clear payments in real-time. Bank better, work smarter and grow faster.</h2>
+
+  <img class="h-20 w-20 mb-20 " src="https://clear.bank/uploads/Icons/PoweredbyPeople.svg" alt="">
+  <h1 class="text-4xl mt-20">Powered by people</h1>
+  <h2 class="text-xl mt-10">You'll get a dedicated relationship manager who understands your business and knows your industry inside out. Backed by a team of specialists, we're always on hand to offer solutions and support.</h2>
+
+  <img class="h-20 w-20 mb-20 " src="https://clear.bank/uploads/Icons/SafeHereTo-Stay.svg" alt="">
+  <h1 class="text-4xl mt-20">Safe and here to stay</h1>
+  <h2 class="text-xl mt-10">ClearBank is a fully regulated bank in both the United Kingdom and Europe, meaning we hold funds securely at the Bank of England and the European Central Bank.</h2>
+
+  
+</div>
+
+</div>
+
+
+<div class="px-14 mt-24">
+  <h1 class="text-5xl mb-7">Who we are working with</h1>
+  <div class="flex items-center justify-between mt-7">
+      <h1 class="text-5xl">01 <span class="text-zinc-200">— 07</span></h1>
+      <div class="text-4xl"><i class="ri-arrow-left-line opacity-5"></i><i class="ri-arrow-right-line"></i>
+      </div>
+  </div>
+</div>
+<div class="w-full items-center justify-between px-14 mt-12 flex">
+  <div
+      class="part w-[32%] h-80 border-[0.01rem] border-zinc-300 rounded-3xl p-8 flex flex-col items-start justify-between hover:bg-teal-300">
+      <div>
+          <h1 class="text-3xl mb-5">Acquirers</h1>
+          <p class="text-xl text-zinc-500">Speeding up settlements for merchants and end custmers so everyone
+              can access their money quickly.</p>
+      </div>
+      <button class="border-[1.2px] border-zinc-900 rounded-full px-7 py-2 text-lg">Learn more <i
+              class="ri-arrow-right-line"></i></button>
+  </div>
+  <div
+      class="part w-[32%] h-80 border-[0.01rem] border-zinc-300 rounded-3xl p-8 flex flex-col items-start justify-between hover:bg-teal-300">
+      <div>
+          <h1 class="text-3xl mb-5">Banks</h1>
+          <p class="text-xl text-zinc-500">Enhancing legacy banking systems with our innovative technology.
+          </p>
+      </div>
+      <button class="border-[1.2px] border-zinc-900 rounded-full px-7 py-2 text-lg">Learn more <i
+              class="ri-arrow-right-line"></i></button>
+  </div>
+  <div
+      class=" part w-[32%] h-80 border-[0.01rem] border-zinc-300 rounded-3xl p-8 flex flex-col items-start justify-between hover:bg-teal-300">
+      <div>
+          <h1 class="text-3xl mb-5">Digital asset platforms</h1>
+          <p class="text-xl text-zinc-500">Facilitating real-time, scalable accounts that seamlessly clear
+              transactions on and off ramp between fiat and crypto.</p>
+      </div>
+      <button class="border-[1.2px] border-zinc-900 rounded-full px-7 py-2 text-lg">Learn more <i
+              class="ri-arrow-right-line"></i></button>
+  </div>
+</div>
+<div
+  class="section w-full h-72 mt-24 flex bg-bottom bg-[url('https://clear.bank/uploads/images/In-page-images/_2880x892_crop_center-center_92_none/70523/CTA@2.webp')] bg-cover">
+  <h1 class="w-[48%] flex items-center justify-center text-5xl">Ready to collaborate?</h1>
+  <div class="w-[48%] pl-12 flex items-start justify-center flex-col space-y-6">
+      <h2 class=" text-2xl">Experience the ClearBank difference and begin your journey today.</h2>
+      <button class="text-xl bg-zinc-950 text-white px-6 py-2 rounded-full hover:bg-teal-600">Begin <i
+              class="ri-arrow-right-line"></i></button>
+  </div>
+</div>
+</div>
+<div class="footer w-full bg-black p-16">
+<div class="about flex items-start">
+  <svg class="w-full max-w-[158px] mdw:max-w-[232px] text-white mr-[64px] mb-[40px] md:mb-0"
+      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 49" fill="none">
+      <path
+          d="M150 48.115c2.442 0 4.223-1.782 4.223-4.224 0-2.441-1.781-4.223-4.223-4.223s-4.224 1.782-4.224 4.224c0 2.441 1.782 4.223 4.224 4.223Zm63.088-5.015c-3.365 0-5.873-2.112-5.873-4.752 0-3.3 2.904-4.883 6.599-5.213l9.437-.792v2.838c0 4.025-4.751 7.919-9.503 7.919h-.66Zm-105.917 0c-3.365 0-5.873-2.112-5.873-4.752 0-3.3 2.903-4.883 6.599-5.213l9.437-.792v2.838c0 4.025-4.752 7.919-9.503 7.919h-.66Zm62.891-1.056V26.866h10.954c5.676 0 9.503 2.441 9.503 7.589 0 5.213-3.827 7.589-9.503 7.589h-10.954ZM65.596 28.25c.858-5.147 4.026-8.777 9.701-8.777 5.741 0 8.513 3.63 9.239 8.777h-18.94Zm76.749-13.396c-7.787 0-13.199 5.147-13.199 12.67V47.72h6.27V27.525c0-4.157 2.771-7.06 6.929-7.06h5.081v-5.61h-5.081Zm81.236 27.255v5.61h5.939V26.733c0-6.666-4.883-12.539-13.99-12.539-7.721 0-13.396 4.29-13.924 10.69h6.269c.594-3.43 3.498-5.279 7.523-5.279h.33c4.686 0 7.523 2.574 7.523 7.128v.791l-10.295.858c-5.675.462-12.01 2.772-12.01 10.23 0 5.41 4.685 9.766 11.482 9.766 5.61 0 9.833-3.3 11.153-6.27Zm26.199-27.915c-8.645 0-14.716 5.675-14.716 14.188V47.72h6.269V28.78c0-5.411 3.432-8.975 8.447-8.975 5.015 0 8.447 3.564 8.447 8.975v18.94h6.269V28.383c0-8.513-6.071-14.188-14.716-14.188ZM90.41 37.16h-5.874c-1.386 3.564-4.554 5.94-9.041 5.94-6.137 0-9.437-4.356-10.097-9.965h25.275v-2.178c0-10.097-5.94-16.762-15.244-16.762-9.899 0-16.366 7.721-16.366 17.092 0 9.37 6.467 17.092 16.366 17.092 8.117 0 13.462-4.817 14.98-11.219Zm27.254 4.95v5.61h5.939V26.733c0-6.666-4.883-12.539-13.99-12.539-7.721 0-13.397 4.29-13.924 10.69h6.269c.594-3.43 3.497-5.279 7.523-5.279h.33c4.685 0 7.523 2.574 7.523 7.128v.791l-10.295.858c-5.675.462-12.01 2.772-12.01 10.23 0 5.41 4.685 9.766 11.482 9.766 5.61 0 9.833-3.3 11.153-6.27Zm52.332-20.656V7.464h10.162c5.346 0 8.645 2.31 8.645 7.061 0 4.62-3.299 6.93-8.645 6.93h-10.162Zm-6.27 26.265h18.28c8.909 0 14.914-4.817 14.914-12.802 0-6.666-5.015-10.56-9.371-11.153 4.026-1.188 7.656-4.29 7.656-9.767 0-6.995-5.478-12.208-14.453-12.208h-17.026v45.93Zm121.756-18.61 14.254-14.254h-7.721l-15.706 16.3V1.79h-6.269v45.93h6.269v-9.437l4.949-4.883 11.021 14.32H300l-14.518-18.61ZM54.047 1.79h-6.269v45.93h6.27V1.79ZM0 24.754c0 13.33 10.559 23.625 23.757 23.625 7.787 0 14.584-3.63 18.808-9.239l-4.752-3.761c-3.365 4.289-8.117 7.193-14.056 7.193-9.767 0-17.356-7.985-17.356-17.818 0-9.833 7.59-17.818 17.356-17.818 5.94 0 10.69 2.904 14.056 7.193l4.752-3.761c-4.224-5.61-11.02-9.24-18.808-9.24C10.56 1.129 0 11.424 0 24.755Z"
+          fill="currentColor"></path>
+  </svg>
+  <div class="flex items-start justify-between ml-10 space-x-16">
+      <div class=" space-y-10">
+          <div class="space-y-1">
+              <h1 class="text-white text-xl">Products</h1>
+              <h2 class="text-zinc-400 hover:text-teal-600">Accounts</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Clearing</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Embedded Banking</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Explore our API</h2>
+          </div>
+          <div class="space-y-1">
+              <h1 class="text-white text-xl">Use cases</h1>
+              <h2 class="text-zinc-400 hover:text-teal-600">Acquirers</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Banks</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Building societies and credit unions</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Digital asset plateforms</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Fintechs</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Non-bank financial institutions</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Pre-regulated firms</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">partner</h2>
+          </div>
+      </div>
+      <div class="space-y-10">
+          <div class="space-y-1">
+              <h1 class="text-white text-xl">About</h1>
+              <h2 class="text-zinc-400 hover:text-teal-600">Our company</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Join ClearBank</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Regulatory and governance</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Reports and accounts</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Press</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Contact us</h2>
+          </div>
+          <div class="space-y-1">
+              <h1 class="text-white text-xl">Learn</h1>
+              <h2 class="text-zinc-400 hover:text-teal-600">Buyer's guide</h2>
+          </div>
+          <div class="space-y-1">
+              <h1 class="text-white text-xl">Follow us</h1>
+              <h2 class="text-zinc-400 hover:text-teal-600">LinkedIn</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">X.com</h2>
+          </div>
+      </div>
+      <div class="space-y-10">
+          <div class="space-y-1">
+              <h1 class="text-white text-xl">Custmer support</h1>
+              <h2 class="text-zinc-400 hover:text-teal-600">How to make a complaint</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Fraud and security</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">FSCS protection</h2>
+          </div>
+          <div class="space-y-1">
+              <h1 class="text-white text-xl">Legal</h1>
+              <h2 class="text-zinc-400 hover:text-teal-600">Legal</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Data protection and privacy</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">Modern slavery statement</h2>
+              <h2 class="text-zinc-400 hover:text-teal-600">BCR Commitments</h2>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="copyright text-zinc-400 text-sm flex flex-col space-y-4 mt-16 w-2/3">
+  <h4>Copyright &copy; ClearBank Limited 2024. All rights reserved.</h4>
+  <p>ClearBank Limited is authorised by the Prudential Regulation Authority and regulated by the Financial
+      Conduct Authority and the Prudential Regulation Authority (FRN: 754568). Registered in England and Wales
+      under Company Number 09736376. Registered Address: ClearBank Limited, Borough Yards, 13 Dirty Lane,
+      London, SE1 9PA.</p>
+  <p>ClearBank Limited is a subscriber to the <span class="hover:text-teal-700 underline">Code of Conduct for Indirect Access Providers</span> in respect of the
+      indirect access services which it provides to its customers.</p>
+  <p>ClearBank Group Holdings Limited is a Prudential Regulation Authority approved parent holding company
+      (FRN: 987231). Registered in England and Wales under Company Number 14254435. Registered Address:
+      ClearBank Group Holdings Limited, Borough Yards, 13 Dirty Lane, London, SE1 9PA.</p>
+</div>
+</div>
+
+</nav>
+
+</body>
+
+</html>
+
